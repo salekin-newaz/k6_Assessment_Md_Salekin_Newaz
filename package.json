@@ -1,0 +1,16 @@
+{
+  "name": "rs_main_app_k6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./k6 run example.js",
+    "api": "./k6 run ./scripts-demo/api.js",
+    "api_parallel": "./k6 run ./scripts-demo/api_parallel.js",
+    "api_data_provider": "./k6 run ./scripts-demo/api_data_provider.js",
+    "api_vu_generator": "./k6 run ./scripts-demo/api_vu_generator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
